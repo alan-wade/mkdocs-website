@@ -1,9 +1,9 @@
-/* Light theme custom colors */
-[data-md-color-scheme="default"] {
+:root  > * {  
   --md-primary-fg-color: #2D4654;
   --md-accent-fg-color: #489FB5;
   --md-typeset-a-color: var(--md-accent-fg-color);
   --md-footer-bg-color: var(--md-primary-fg-color);
+
 }
 
 /* Footer Section */

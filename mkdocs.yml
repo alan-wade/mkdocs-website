@@ -12,6 +12,10 @@ nav:
 
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: '#2D4654'
+      accent: '#489FB5' 
   features:
     - search.suggest
     - toc.integrate

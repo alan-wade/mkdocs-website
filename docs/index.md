@@ -3,7 +3,7 @@ title: About Me
 description: Your above average engineer providing sustainable solutions every day for companies of all sizes.
 keywords: Alan Wade, AI Engineer, Software Engineer, Spring Boot
 author: Alan Wade
-canonical_url: https://www.a-wade.com/
+canonical_url: https://www.alan-wade.github.io/
 ---
 
 <script type="application/ld+json">
@@ -11,7 +11,7 @@ canonical_url: https://www.a-wade.com/
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Alan Wade",
-  "url": "https://www.a-wade.com/",
+  "url": "https://www.alan-wade.github.io/",
   "image": "https://avatars.githubusercontent.com/u/34709402?v=4",
   "sameAs": [
     "https://www.linkedin.com/in/alan-j-wade/",

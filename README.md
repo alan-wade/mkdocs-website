@@ -1,8 +1,6 @@
 
 ## Deployment
 
-I recommend publishing your site with GitHub Pages. If you want to keep your repo private, you need a GitHub Pro subscription. Public repos can be deployed with a free GitHub account.
-
 1. Push your repository to GitHub
 2. Follow the instructions here: [Publishing your site](https://squidfunk.github.io/mkdocs-material/publishing-your-site/)
 3. Set up the GitHub actions for your project

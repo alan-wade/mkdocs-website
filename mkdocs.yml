@@ -1,17 +1,14 @@
-site_name: Your Site Name
-site_description: Your site description
-site_url: https://yourdomain.com
+site_name: Alan Wade
+site_description: A collection of my projects and blog posts
+site_url: https://a-wade.com
 
 nav:
   - Home:
-    - About: index.md
-  - Case Studies:
-    - Overview: portfolio/index.md
-    - Projects:
-      - portfolio/projects/project-1.md
-      - portfolio/projects/project-2.md
-  - Blog:
-    - blog/index.md 
+    - About: index.md 
+  - Portfolio:
+    - Projects: portfolio/index.md
+  - FAQ:
+    - Frequently Asked Questions: faq/index.md
 
 theme:
   name: material
@@ -28,37 +25,19 @@ theme:
     - content.code.copy
     - navigation.footer
   language: en
-  palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: custom
-      accent: custom  
-    - scheme: slate
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: custom
-      accent: custom
   font:
-    text: Roboto
+    text: Montserrat
     code: Roboto Mono
-  icon:
-    logo: material/slash-forward-box
-  favicon: assets/favicon.png
+  logo: assets/logo.png
+  favicon: assets/logo.png
 
 extra:
-  generator: true
+  generator: false
   social:
-    - icon: fontawesome/solid/building
-      link: https://company.com
     - icon: fontawesome/brands/github
-      link: https://github.com/
-    - icon: fontawesome/brands/youtube
-      link: https://youtube.com/
+      link: https://github.com/alan-wade
     - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com
+      link: https://www.linkedin.com/in/alan-j-wade/
   analytics:
     # provider: google
     # property: G-W9Y130NXVZ
@@ -70,11 +49,7 @@ plugins:
   - search
   - social:
       cards_layout_options:
-        background_color: "#111111"
-  - blog:
-      blog_dir: blog
-      authors_file: "{blog}/.authors.yml"
-      categories: true
+        background_color: "#2D4654"
 
 markdown_extensions:
   - attr_list
@@ -100,6 +75,3 @@ extra_javascript:
 
 extra_files:
   - docs/robots.txt
-
-copyright: |
-  &copy; 2024 <a href="https://www.linkedin.com" target="_blank" rel="noopener">John Doe</a>. All rights reserved.

@@ -2,15 +2,8 @@
   width: 280px;
   height: 380px;
   object-fit: cover;
-  border-radius: 12px;
   transform: none;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-}
-
-.profile-image:hover {
-  transform: scale(1.02);
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
 }
 
 /* Grid Layout on index page */

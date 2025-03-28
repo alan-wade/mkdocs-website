@@ -7,6 +7,8 @@ nav:
     - About: index.md 
   - Portfolio:
     - Projects: portfolio/index.md
+  - Blog:
+    - Posts: blog/index.md
   - FAQ:
     - Frequently Asked Questions: faq/index.md
 
@@ -50,6 +52,7 @@ extra_css:
   - stylesheets/extra.css
   - stylesheets/hero.css
 plugins:
+  - blog
   - search
   - social:
       cards_layout_options:
